@@ -1,0 +1,11 @@
+### Cadastrar um nova forma
+POST https://localhost:5001/api/forma/create
+Content-Type: application/json
+
+{
+    "Nome" : "Crédito",
+    "Vezes" : 1
+}
+
+### Listar todas as formas de pagamento
+GET https://localhost:5001/api/forma/list
